@@ -1,0 +1,203 @@
+\hypertarget{stats_8h}{}\section{stats.\+h File Reference}
+\label{stats_8h}\index{stats.\+h@{stats.\+h}}
+This graph shows which files directly or indirectly include this file\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{stats_8h_a71e084b13a43fce6ba8c3da8844d5930}{print\+\_\+statistics} (unsigned char arr\mbox{[}$\,$\mbox{]}, unsigned int arr\+\_\+length)
+\begin{DoxyCompactList}\small\item\em A function that prints the statistics of an array including minimum, maximum, mean, and median. \end{DoxyCompactList}\item 
+void \hyperlink{stats_8h_a39b6ac0fc13776ce19713d37afbe9a4e}{print\+\_\+array} (unsigned char arr\mbox{[}$\,$\mbox{]}, unsigned int arr\+\_\+length)
+\begin{DoxyCompactList}\small\item\em Given an array of data and a length, prints the array to the screen. \end{DoxyCompactList}\item 
+unsigned char \hyperlink{stats_8h_ae8b0d93a4554a415008dc13c55f6baf0}{find\+\_\+median} (unsigned char arr\mbox{[}$\,$\mbox{]}, unsigned int arr\+\_\+length)
+\begin{DoxyCompactList}\small\item\em Given an array of data and a length, returns the median value. \end{DoxyCompactList}\item 
+unsigned char \hyperlink{stats_8h_af3a2d4146fca6e091ac514c1a6cd53b6}{find\+\_\+mean} (unsigned char arr\mbox{[}$\,$\mbox{]}, unsigned int arr\+\_\+length)
+\begin{DoxyCompactList}\small\item\em Given an array of data and a length, returns the mean. \end{DoxyCompactList}\item 
+unsigned char \hyperlink{stats_8h_aafc6e044911efc1a3625ec30d7791929}{find\+\_\+maximum} (unsigned char arr\mbox{[}$\,$\mbox{]}, unsigned int arr\+\_\+length)
+\begin{DoxyCompactList}\small\item\em Given an array of data and a length, returns the maximum. \end{DoxyCompactList}\item 
+unsigned char \hyperlink{stats_8h_aa1153a7c7cc16936b57ba61ee4a95cde}{find\+\_\+minimum} (unsigned char arr\mbox{[}$\,$\mbox{]}, unsigned int arr\+\_\+length)
+\begin{DoxyCompactList}\small\item\em Given an array of data and a length, returns the minimum\+Given an array of data and a length, returns the minimum. \end{DoxyCompactList}\item 
+void \hyperlink{stats_8h_a0d38e2dcfb6751cb709d525c153efd99}{sort\+\_\+array} (unsigned char arr\mbox{[}$\,$\mbox{]}, unsigned int arr\+\_\+length)
+\begin{DoxyCompactList}\small\item\em Given an array of data and a length, sorts the array from largest to smallest. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Mohamed Reda (\href{mailto:mhmdreda99@github.com}{\tt mhmdreda99@github.\+com}) 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2021-\/01-\/04
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2021 
+\end{DoxyCopyright}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{stats_8h_aafc6e044911efc1a3625ec30d7791929}\label{stats_8h_aafc6e044911efc1a3625ec30d7791929}} 
+\index{stats.\+h@{stats.\+h}!find\+\_\+maximum@{find\+\_\+maximum}}
+\index{find\+\_\+maximum@{find\+\_\+maximum}!stats.\+h@{stats.\+h}}
+\subsubsection{\texorpdfstring{find\+\_\+maximum()}{find\_maximum()}}
+{\footnotesize\ttfamily unsigned char find\+\_\+maximum (\begin{DoxyParamCaption}\item[{unsigned char}]{arr\mbox{[}$\,$\mbox{]},  }\item[{unsigned int}]{arr\+\_\+length }\end{DoxyParamCaption})}
+
+
+
+Given an array of data and a length, returns the maximum. 
+
+To get the maximum of given array elements, we need to search for the highest element value of the given array elements.
+
+
+\begin{DoxyParams}{Parameters}
+{\em arr} & the array that its maximum is to be found. \\
+\hline
+{\em arr\+\_\+length} & the array will be indexed till this length\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the maximum element value of the given array elements. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 1
+\mbox{\Hypertarget{stats_8h_af3a2d4146fca6e091ac514c1a6cd53b6}\label{stats_8h_af3a2d4146fca6e091ac514c1a6cd53b6}} 
+\index{stats.\+h@{stats.\+h}!find\+\_\+mean@{find\+\_\+mean}}
+\index{find\+\_\+mean@{find\+\_\+mean}!stats.\+h@{stats.\+h}}
+\subsubsection{\texorpdfstring{find\+\_\+mean()}{find\_mean()}}
+{\footnotesize\ttfamily unsigned char find\+\_\+mean (\begin{DoxyParamCaption}\item[{unsigned char}]{arr\mbox{[}$\,$\mbox{]},  }\item[{unsigned int}]{arr\+\_\+length }\end{DoxyParamCaption})}
+
+
+
+Given an array of data and a length, returns the mean. 
+
+To caculate the mean of the array, that means caculating the average and the average of the given array will be cauclated by sum of the array elements divided by the given array length.
+
+
+\begin{DoxyParams}{Parameters}
+{\em arr} & the array that its mean will be caculated \\
+\hline
+{\em arr\+\_\+length} & the mean will be caculated based on this length\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the average value of the given array arr with length arr\+\_\+length 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{stats_8h_ae8b0d93a4554a415008dc13c55f6baf0}\label{stats_8h_ae8b0d93a4554a415008dc13c55f6baf0}} 
+\index{stats.\+h@{stats.\+h}!find\+\_\+median@{find\+\_\+median}}
+\index{find\+\_\+median@{find\+\_\+median}!stats.\+h@{stats.\+h}}
+\subsubsection{\texorpdfstring{find\+\_\+median()}{find\_median()}}
+{\footnotesize\ttfamily unsigned char find\+\_\+median (\begin{DoxyParamCaption}\item[{unsigned char}]{arr\mbox{[}$\,$\mbox{]},  }\item[{unsigned int}]{arr\+\_\+length }\end{DoxyParamCaption})}
+
+
+
+Given an array of data and a length, returns the median value. 
+
+To caculate the median, the array shall be sorted Thus, this function will call function sort\+\_\+array to sort the array at first Then check the arr\+\_\+length is even or odd if arr\+\_\+length is even so the median will be the mean of the middle two elements else, the median will be the the value of the array at the middle element.
+
+
+\begin{DoxyParams}{Parameters}
+{\em arr} & the array that its median value will be caculated \\
+\hline
+{\em arr\+\_\+length} & the array will be indexed till this length\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the calculated median value based on the given array data and length 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 3
+\mbox{\Hypertarget{stats_8h_aa1153a7c7cc16936b57ba61ee4a95cde}\label{stats_8h_aa1153a7c7cc16936b57ba61ee4a95cde}} 
+\index{stats.\+h@{stats.\+h}!find\+\_\+minimum@{find\+\_\+minimum}}
+\index{find\+\_\+minimum@{find\+\_\+minimum}!stats.\+h@{stats.\+h}}
+\subsubsection{\texorpdfstring{find\+\_\+minimum()}{find\_minimum()}}
+{\footnotesize\ttfamily unsigned char find\+\_\+minimum (\begin{DoxyParamCaption}\item[{unsigned char}]{arr\mbox{[}$\,$\mbox{]},  }\item[{unsigned int}]{arr\+\_\+length }\end{DoxyParamCaption})}
+
+
+
+Given an array of data and a length, returns the minimum\+Given an array of data and a length, returns the minimum. 
+
+To get the minimum of given array elements, we need to search for the lowest element value of the given array elements
+
+
+\begin{DoxyParams}{Parameters}
+{\em arr} & the array that its minimum is to be found. \\
+\hline
+{\em arr\+\_\+length} & the array will be indexed till this length.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the minimum element value of the given array elements. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 4
+\mbox{\Hypertarget{stats_8h_a39b6ac0fc13776ce19713d37afbe9a4e}\label{stats_8h_a39b6ac0fc13776ce19713d37afbe9a4e}} 
+\index{stats.\+h@{stats.\+h}!print\+\_\+array@{print\+\_\+array}}
+\index{print\+\_\+array@{print\+\_\+array}!stats.\+h@{stats.\+h}}
+\subsubsection{\texorpdfstring{print\+\_\+array()}{print\_array()}}
+{\footnotesize\ttfamily void print\+\_\+array (\begin{DoxyParamCaption}\item[{unsigned char}]{arr\mbox{[}$\,$\mbox{]},  }\item[{unsigned int}]{arr\+\_\+length }\end{DoxyParamCaption})}
+
+
+
+Given an array of data and a length, prints the array to the screen. 
+
+Printf function from stdio.\+h header file will be used to print the output data to the console.
+
+
+\begin{DoxyParams}{Parameters}
+{\em arr} & the array to be printed \\
+\hline
+{\em arr\+\_\+length} & the array will be printed to this length\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+\mbox{\Hypertarget{stats_8h_a71e084b13a43fce6ba8c3da8844d5930}\label{stats_8h_a71e084b13a43fce6ba8c3da8844d5930}} 
+\index{stats.\+h@{stats.\+h}!print\+\_\+statistics@{print\+\_\+statistics}}
+\index{print\+\_\+statistics@{print\+\_\+statistics}!stats.\+h@{stats.\+h}}
+\subsubsection{\texorpdfstring{print\+\_\+statistics()}{print\_statistics()}}
+{\footnotesize\ttfamily void print\+\_\+statistics (\begin{DoxyParamCaption}\item[{unsigned char}]{arr\mbox{[}$\,$\mbox{]},  }\item[{unsigned int}]{arr\+\_\+length }\end{DoxyParamCaption})}
+
+
+
+A function that prints the statistics of an array including minimum, maximum, mean, and median. 
+
+This function will pass the input array to some statisitcs functions and print the returned values from these functions
+
+
+\begin{DoxyParams}{Parameters}
+{\em arr} & the array which its statistics to be printed \\
+\hline
+{\em arr\+\_\+length} & the statisitcs will be caculated based on this length\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 5
+\mbox{\Hypertarget{stats_8h_a0d38e2dcfb6751cb709d525c153efd99}\label{stats_8h_a0d38e2dcfb6751cb709d525c153efd99}} 
+\index{stats.\+h@{stats.\+h}!sort\+\_\+array@{sort\+\_\+array}}
+\index{sort\+\_\+array@{sort\+\_\+array}!stats.\+h@{stats.\+h}}
+\subsubsection{\texorpdfstring{sort\+\_\+array()}{sort\_array()}}
+{\footnotesize\ttfamily void sort\+\_\+array (\begin{DoxyParamCaption}\item[{unsigned char}]{arr\mbox{[}$\,$\mbox{]},  }\item[{unsigned int}]{arr\+\_\+length }\end{DoxyParamCaption})}
+
+
+
+Given an array of data and a length, sorts the array from largest to smallest. 
+
+The zeroth Element should be the largest value, and the last element (n-\/1) should be the smallest value. The array will be sorted using two nested loops approach.
+
+
+\begin{DoxyParams}{Parameters}
+{\em arr} & the target array to be sorted. \\
+\hline
+{\em arr\+\_\+length} & the number of array elements.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}

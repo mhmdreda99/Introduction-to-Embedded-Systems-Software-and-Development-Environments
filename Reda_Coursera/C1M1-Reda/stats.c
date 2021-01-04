@@ -35,11 +35,11 @@ void main() {
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
   unsigned char arr_length = sizeof(test)/sizeof(test[0]); // size of array = size of all elements divided by the size of any elemnt.
-  printf("The test array before sorting\n");
+  printf("The test array before sorting:\n");
   print_array(test, arr_length); 
   // we need to sort the array to find its median correctly
   sort_array(test, arr_length); 
-  printf("The test array after sorting\n");
+  printf("The test array after sorting:\n");
   print_array(test, arr_length);
   print_statistics(test, arr_length); // print the max, min, mean and the median of the given test array
 }
@@ -116,7 +116,7 @@ void sort_array(unsigned char arr[], unsigned int arr_length)
   {
     for(inner_idx = outter_idx + 1; inner_idx < arr_length; inner_idx++)
       {
-        if(arr[outter_idx] < arr[inner_idx])
+        if(arr[outter_idx] > arr[inner_idx])
         {
           // swapping the two elements.
           temp = arr[outter_idx];

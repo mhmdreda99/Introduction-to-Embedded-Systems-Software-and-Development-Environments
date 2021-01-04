@@ -1,0 +1,9 @@
+digraph "find_minimum"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node10 [label="find_minimum",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="print_statistics",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stats_8h.html#a71e084b13a43fce6ba8c3da8844d5930",tooltip="A function that prints the statistics of an array including minimum, maximum, mean, and median. "];
+}

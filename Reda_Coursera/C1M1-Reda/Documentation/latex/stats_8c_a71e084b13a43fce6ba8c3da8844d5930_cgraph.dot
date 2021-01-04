@@ -1,0 +1,15 @@
+digraph "print_statistics"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14 [label="print_statistics",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid"];
+  Node15 [label="find_minimum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stats_8c.html#aa1153a7c7cc16936b57ba61ee4a95cde",tooltip="Given an array of data and a length, returns the minimumGiven an array of data and a length..."];
+  Node14 -> Node16 [color="midnightblue",fontsize="10",style="solid"];
+  Node16 [label="find_maximum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stats_8c.html#aafc6e044911efc1a3625ec30d7791929",tooltip="Given an array of data and a length, returns the maximum. "];
+  Node14 -> Node17 [color="midnightblue",fontsize="10",style="solid"];
+  Node17 [label="find_mean",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stats_8c.html#af3a2d4146fca6e091ac514c1a6cd53b6",tooltip="Given an array of data and a length, returns the mean. "];
+  Node14 -> Node18 [color="midnightblue",fontsize="10",style="solid"];
+  Node18 [label="find_median",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$stats_8c.html#ae8b0d93a4554a415008dc13c55f6baf0",tooltip="Given an array of data and a length, returns the median value. "];
+}
